@@ -1,14 +1,14 @@
 #ifndef HEADER_H
 #define HEADER_H
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
-#include <SDL2/SDL_mixer.h>
+#include "../resource/SDL/include/SDL2/SDL.h"
+#include "../resource/SDL/include/SDL2/SDL_image.h"
+#include "../resource/SDL/include/SDL2/SDL_mixer.h"
+#include "../resource/SDL/include/SDL2/SDL_ttf.h"
 #include <unistd.h>
 #include <stdio.h>
 #include <stdbool.h>
 #include <time.h>
-#include <SDL2/SDL_ttf.h>
 
 extern SDL_Window *window;
 extern SDL_Surface *screen;
